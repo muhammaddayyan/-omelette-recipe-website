@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4E4D6;
+    padding: 20px;
+}
+
+.stron {
+    color: #555;
+    /* gap: 12px; */
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.Cus-line {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 25px 0;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.reci-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 500px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: "Young Serif";
+    font-weight: 400;
+    /* font-style: normal; */
+    
+}
+
+h2 {
+    font-size: 18px;
+    color: #845542;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-family: "Young Serif", serif;
+    font-weight: 600;
+    /* font-style: normal; */
+    /* font-style: oblique; */
+}
+
+.reci-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.reci-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.pr-time p {
+    font-size: 16px;
+    color: #333;
+}
+
+.time-box {
+    background-color: #FBEAF0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.time-box p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #763451;
+}
+
+.ingredients ul,
+.instructions ol {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.ingredients ul li,
+.instructions ol li {
+    margin-bottom: 10px;
+}
+
+.ingredients ul {
+    padding-left: 20px;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.nutrition table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.nutrition table th,
+.nutrition table td {
+    padding: 10px 0;
+}
+
+.nutrition table th {
+    font-size: 16px;
+    color: #555;
+}
+
+.nutrition table td {
+    font-size: 16px;
+    color: #774936;
+    font-weight: bold;
+}
+
+.nutrition table tr {
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.nutrition table tr:last-child {
+    border-bottom: none;
+}
+
+.the {
+    font-size: 12px;
+    color: #555;
+}
